@@ -35,27 +35,53 @@ import Footer from '@/components/Footer.vue'
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="..." class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+              <img src="../assets/hobbies/20231119_064608.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block" style="color: aqua;">
+                <h5>Hiking</h5>
+                <!-- <p>Some representative placeholder content for the first slide.</p> -->
               </div>
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+              <img src="../assets/hobbies/20240214_145732.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block" style="color: rgb(209, 255, 3);">
+                <h5>Nunismatics</h5>
+                <!-- <p>Some representative placeholder content for the second slide.</p> -->
               </div>
             </div>
             <div class="carousel-item">
-              <img src="..." class="d-block w-100" alt="..." />
+              <img src="../assets/hobbies/20240214_150451.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block" style="color: rgb(0, 255, 157); font-weight: bold;">
+                <h5><span style="background:;">Cooking</span></h5>
+                <!-- <p>Some representative placeholder content for the third slide.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/hobbies/FB_IMG_1700723115624.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block" style="color: rgb(4, 103, 42);">
+                <h5 style="font-weight: bolder;">Manga & Anime</h5>
+                <!-- <p>Some representative placeholder content for the third slide.</p> -->
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../assets/hobbies/IMG_20240128_210704_828.jpg" class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h5>Cars</h5>
+                <!-- <p>Some representative placeholder content for the third slide.</p> -->
               </div>
             </div>
           </div>
@@ -85,3 +111,16 @@ import Footer from '@/components/Footer.vue'
     </div>
   </main>
 </template>
+
+
+<style>
+#carouselExampleCaptions {
+  height: 30rem;
+}
+
+img{
+  height:30rem;
+  object-fit: contain;
+}
+
+</style>
